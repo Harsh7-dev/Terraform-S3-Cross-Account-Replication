@@ -1,0 +1,21 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+terraform.tfstate.backup
+.terraform/
+.terraform.tfstate.lock.info
+
+# Sensitive Information
+*.pem
+*.key
+*.env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Mac specific files
+.DS_Store
